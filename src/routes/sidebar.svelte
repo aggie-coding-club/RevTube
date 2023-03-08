@@ -6,7 +6,6 @@
 
 <div class="sidebar">
 	<div class="sidebar-container">
-		<div></div>
 	</div>
 </div>
 
