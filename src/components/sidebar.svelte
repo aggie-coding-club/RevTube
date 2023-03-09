@@ -15,8 +15,4 @@
 		flex-direction: column;
 		min-height: 100vh; width: 10rem;
 	}
-	.icon {
-		font-size: 10rem;
-		color: black;
-	}
 </style>
