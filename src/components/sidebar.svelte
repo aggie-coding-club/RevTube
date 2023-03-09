@@ -1,10 +1,12 @@
 <script>
-	import './styles.css';
+	import '../routes/styles.css';
     import { SvelteComponentTyped } from 'svelte';
     import { Box, Button } from 'chakra-ui-svelte';
+	import ChevronCircleUp from 'svelte-icons/fa/FaChevronCircleUp.svelte';
 </script>
 
 <div class="sidebar">
+	<ChevronCircleUp></ChevronCircleUp>
 	<div class="sidebar-container">
 	</div>
 </div>
@@ -13,6 +15,7 @@
 	.sidebar {
 		display: flex;
 		flex-direction: column;
-		min-height: 100vh; width: 10rem;
+		height: 100vh; width: 90vw;
+		background-color: black;
 	}
 </style>
