@@ -28,6 +28,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"chakra-ui-svelte": "^0.2.2"
+		"chakra-ui-svelte": "^0.2.2",
+		"svelte-icons": "^2.1.0"
 	}
 }

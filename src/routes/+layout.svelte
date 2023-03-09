@@ -1,9 +1,11 @@
 <script>
 	import './styles.css';
+	import Sidebar from '../components/sidebar.svelte';
 </script>
 
 <div class="app">
 	<main>
+		<Sidebar/>
 		<slot />
 	</main>
 

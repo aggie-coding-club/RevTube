@@ -1,11 +1,10 @@
 <script>
-	import './styles.css';
-    import { SvelteComponentTyped } from 'svelte';
-    import { Box, Button } from 'chakra-ui-svelte';
+	import ChevronCircleUp from 'svelte-icons/fa/FaChevronCircleUp.svelte';
 </script>
 
 <div class="sidebar">
 	<div class="sidebar-container">
+		<ChevronCircleUp />
 	</div>
 </div>
 
