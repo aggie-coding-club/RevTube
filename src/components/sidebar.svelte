@@ -1,14 +1,11 @@
 <script>
-	import '../routes/styles.css';
+	import './styles.css';
     import { SvelteComponentTyped } from 'svelte';
-	import FaAndroid from 'svelte-icons/fa/FaAndroid.svelte';
+    import { Box, Button } from 'chakra-ui-svelte';
 </script>
 
 <div class="sidebar">
-	<div class="icon">
-		<FaAndroid></FaAndroid>
-	</div>
-	<div class="sidebar-btn-container">
+	<div class="sidebar-container">
 	</div>
 </div>
 
