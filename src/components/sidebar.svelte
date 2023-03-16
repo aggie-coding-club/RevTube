@@ -80,6 +80,9 @@
 		width: 20rem; display: flex; justify-content: flex-start; align-items: center;
 		margin: 1rem 0 1.5rem 0;
 	}
+	.side-nav .icon-container {
+		cursor: pointer;
+	}
 	.side-nav .icon-container:hover {
 		background-color: #443f3f; border-radius: 50%;
 	}
@@ -88,6 +91,7 @@
 		width: 20rem; height: 4rem;
 		align-items: center; text-decoration: none; border-radius: 1rem;
 		font-size: 1.4rem; font-weight: 400;
+		cursor: pointer;
 	}
 	.sidebar-btn:hover {
 		background-color: #443f3f;
