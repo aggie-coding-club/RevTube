@@ -1,64 +1,117 @@
 <script>
 	import '../routes/styles.css';
-    import { SvelteComponentTyped } from 'svelte';
-    import { Box, Button } from 'chakra-ui-svelte';
-	import ChevronCircleUp from 'svelte-icons/fa/FaChevronCircleUp.svelte';
-	import FaBars from 'svelte-icons/fa/FaBars.svelte';
+	import MdDehaze from 'svelte-icons/md/MdDehaze.svelte';
+	import IoMdHome from 'svelte-icons/io/IoMdHome.svelte';
+	import IoMdFolder from 'svelte-icons/io/IoMdFolder.svelte';
+	import IoMdBook from 'svelte-icons/io/IoMdBook.svelte'
 </script>
 
-<div class="sidebar">
+<div class="sidebar">	
+
+	<div class="side-nav">
+		<div class="sidebar-toggle"><div class="icon"><MdDehaze/></div></div>
+	</div>
+
 	<div class="sidebar-container">
-		<a href="/" class="sidebar-button">
+
+		<a href="/" class="sidebar-btn">
 			<div class="icon">
-				<FaBars />
+				<IoMdHome />
 			</div>
 			<span>Home</span>
 		</a>
-		<a href="/" class="sidebar-button">
+
+		<a href="/" class="sidebar-btn">
 			<div class="icon">
-				<FaBars />
+				<IoMdBook />
 			</div>
 			<span>Subscriptions</span>
 		</a>
-		<a href="/" class="sidebar-button">
+
+		<a href="/" class="sidebar-btn">
 			<div class="icon">
-				<FaBars />
+				<IoMdFolder />
 			</div>
-			<span>Videos</span>
+			<span>Library</span>
 		</a>
+
+		<div class="divider"></div>
+
+		<a href="/" class="sidebar-btn">
+			<div class="icon">
+
+			</div>
+			<span>History</span>
+		</a>
+
+		<a href="/" class="sidebar-btn">
+			<div class="icon">
+
+			</div>
+			<span>Liked Videos</span>
+		</a>
+
+		<a href="/" class="sidebar-btn">
+			<div class="icon">
+
+			</div>
+			<span>Watch Later</span>
+		</a>
+
 	</div>
 </div>
 
 <style>
+	@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 	.sidebar {
-		display: flex;
-		flex-direction: column;
-		align-content: center;
-		min-height: 100vh; 
-		width: 12.5rem;
-		padding: 10px 2vw;
-		background-color: #1a1717;
+		display: flex;flex-direction: column; align-items: center;
+		min-height: 100vh; width: 24rem;
+		background-color: #1a1717; 
+		font-family: "Roboto"; color: white;
 	}
 
-	.sidebar-button {
-		display: flex;
-		width: 100%;
-		color: #fff;
-		height: 40px;
+	.sidebar-container {
+		width: 21.6rem; height: inherit;
+		display: flex; flex-direction: column; align-items: center;
+	}
+
+	.side-nav {
+		width: 20rem; display: flex; justify-content: flex-start; align-items: center;
+		margin: 1rem 0 2rem 0;
+	}
+
+	.sidebar-toggle {
+		width: 4rem; height: 4rem; 
+		display: flex; justify-content: center; align-items: center; 
+		color: white; border-radius: 50%;
+	}
+
+	.sidebar-toggle:hover {
+		background-color: #443f3f;
+	}
+
+	.sidebar-btn {
+		display: flex; color: white;
+		width: 20rem; height: 4rem;
 		align-items: center;
 		text-decoration: none;
 		border-radius: 10px;
-		font-size: 20px;
+		font-size: 1.4rem; font-weight: 400;
 	}
 
-	.sidebar-button:hover {
+	.sidebar-btn:hover {
 		background-color: #443f3f;
 	}
 
 	.icon {
-		width: 10%;
-		margin-right: 20px;
-		margin-left: 5px;
-		margin-top: 5px;
+		width: 2.4rem; height: 2.4rem;
 	}
+
+	.divider {
+		width: 18rem; height: 4px;
+		background-color: rgb(112, 104, 104);
+		margin: 1rem 0 1rem 0;
+		border-radius: 2rem;
+	}
+
 </style>
