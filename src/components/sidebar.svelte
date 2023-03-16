@@ -6,61 +6,56 @@
 	import IoMdBook from 'svelte-icons/io/IoMdBook.svelte';
 	import MdAccessTime from 'svelte-icons/md/MdAccessTime.svelte';
 	import MdHistory from 'svelte-icons/md/MdHistory.svelte';
-	import IoMdThumbsUp from 'svelte-icons/io/IoMdThumbsUp.svelte'
+	import IoMdThumbsUp from 'svelte-icons/io/IoMdThumbsUp.svelte';
+
+	function toggle_sidebar() {
+		console.log("hello");
+	}
 </script>
 
 <div class="sidebar">	
-
 	<div class="side-nav">
-		<div class="icon-container"><div class="icon"><MdDehaze/></div></div>
+		<div class="icon-container side-toggle" on:click={toggle_sidebar}><div class="icon"><MdDehaze/></div></div>
 	</div>
 
 	<div class="sidebar-container">
-
 		<a href="/" class="sidebar-btn">
 			<div class="icon-container">
 				<div class="icon"><IoMdHome /></div>
 			</div>
 			<span>Home</span>
 		</a>
-
 		<a href="/" class="sidebar-btn">
 			<div class="icon-container">
 				<div class="icon"><IoMdBook /></div>
 			</div>
 			<span>Subscriptions</span>
 		</a>
-
 		<a href="/" class="sidebar-btn">
 			<div class="icon-container">
 				<div class="icon"><IoMdFolder /></div>
 			</div>
 			<span>Library</span>
 		</a>
-
 		<div class="divider"></div>
-
 		<a href="/" class="sidebar-btn">
 			<div class="icon-container">
 				<div class="icon"><MdHistory /></div>
 			</div>
 			<span>History</span>
 		</a>
-
 		<a href="/" class="sidebar-btn">
 			<div class="icon-container">
 				<div class="icon"><IoMdThumbsUp/></div>
 			</div>
 			<span>Liked Videos</span>
 		</a>
-
 		<a href="/" class="sidebar-btn">
 			<div class="icon-container">
 				<div class="icon"><MdAccessTime /></div>
 			</div>
 			<span>Watch Later</span>
 		</a>
-
 	</div>
 </div>
 
@@ -80,10 +75,10 @@
 		width: 20rem; display: flex; justify-content: flex-start; align-items: center;
 		margin: 1rem 0 1.5rem 0;
 	}
-	.side-nav .icon-container {
+	.side-toggle {
 		cursor: pointer;
 	}
-	.side-nav .icon-container:hover {
+	.side-toggle:hover {
 		background-color: #443f3f; border-radius: 50%;
 	}
 	.sidebar-btn {
