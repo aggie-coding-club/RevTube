@@ -101,7 +101,7 @@
 		width: 2.4rem; height: 2.4rem;
 	}
 	.divider {
-		width: 19.5rem; height: 0.4rem;
+		width: 19.5rem; height: 0.2rem;
 		background-color: rgb(112, 104, 104);
 		margin: 1rem 0 1rem 0; border-radius: 2rem;
 	}
