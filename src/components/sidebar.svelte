@@ -6,7 +6,7 @@
 	import IoMdBook from 'svelte-icons/io/IoMdBook.svelte';
 	import MdAccessTime from 'svelte-icons/md/MdAccessTime.svelte';
 	import MdHistory from 'svelte-icons/md/MdHistory.svelte';
-	import MdThumbUp from 'svelte-icons/md/MdThumbUp.svelte';
+	import IoMdThumbsUp from 'svelte-icons/io/IoMdThumbsUp.svelte'
 </script>
 
 <div class="sidebar">	
@@ -49,14 +49,14 @@
 
 		<a href="/" class="sidebar-btn">
 			<div class="icon-container">
-				<div class="icon"><MdAccessTime /></div>
+				<div class="icon"><IoMdThumbsUp/></div>
 			</div>
 			<span>Liked Videos</span>
 		</a>
 
 		<a href="/" class="sidebar-btn">
 			<div class="icon-container">
-				<div class="icon"><MdThumbUp/></div>
+				<div class="icon"><MdAccessTime /></div>
 			</div>
 			<span>Watch Later</span>
 		</a>
