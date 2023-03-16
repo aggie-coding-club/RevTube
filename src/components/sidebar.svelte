@@ -9,28 +9,28 @@
 <div class="sidebar">	
 
 	<div class="side-nav">
-		<div class="sidebar-toggle"><div class="icon"><MdDehaze/></div></div>
+		<div class="icon-container"><div class="icon"><MdDehaze/></div></div>
 	</div>
 
 	<div class="sidebar-container">
 
 		<a href="/" class="sidebar-btn">
-			<div class="icon">
-				<IoMdHome />
+			<div class="icon-container">
+				<div class="icon"><IoMdHome /></div>
 			</div>
 			<span>Home</span>
 		</a>
 
 		<a href="/" class="sidebar-btn">
-			<div class="icon">
-				<IoMdBook />
+			<div class="icon-container">
+				<div class="icon"><IoMdBook /></div>
 			</div>
 			<span>Subscriptions</span>
 		</a>
 
 		<a href="/" class="sidebar-btn">
-			<div class="icon">
-				<IoMdFolder />
+			<div class="icon-container">
+				<div class="icon"><IoMdFolder /></div>
 			</div>
 			<span>Library</span>
 		</a>
@@ -38,21 +38,21 @@
 		<div class="divider"></div>
 
 		<a href="/" class="sidebar-btn">
-			<div class="icon">
+			<div class="icon-container">
 
 			</div>
 			<span>History</span>
 		</a>
 
 		<a href="/" class="sidebar-btn">
-			<div class="icon">
+			<div class="icon-container">
 
 			</div>
 			<span>Liked Videos</span>
 		</a>
 
 		<a href="/" class="sidebar-btn">
-			<div class="icon">
+			<div class="icon-container">
 
 			</div>
 			<span>Watch Later</span>
@@ -69,49 +69,41 @@
 		background-color: #1a1717; 
 		font-family: "Roboto"; color: white;
 	}
-
 	.sidebar-container {
 		width: 21.6rem; height: inherit;
 		display: flex; flex-direction: column; align-items: center;
 	}
-
 	.side-nav {
 		width: 20rem; display: flex; justify-content: flex-start; align-items: center;
-		margin: 1rem 0 2rem 0;
+		margin: 1rem 0 1.5rem 0;
 	}
-
-	.sidebar-toggle {
-		width: 4rem; height: 4rem; 
-		display: flex; justify-content: center; align-items: center; 
-		color: white; border-radius: 50%;
+	.side-nav .icon-container:hover {
+		background-color: #443f3f; border-radius: 50%;
 	}
-
-	.sidebar-toggle:hover {
-		background-color: #443f3f;
-	}
-
 	.sidebar-btn {
 		display: flex; color: white;
 		width: 20rem; height: 4rem;
-		align-items: center;
-		text-decoration: none;
-		border-radius: 10px;
+		align-items: center; text-decoration: none; border-radius: 1rem;
 		font-size: 1.4rem; font-weight: 400;
 	}
-
 	.sidebar-btn:hover {
 		background-color: #443f3f;
 	}
-
+	.sidebar-btn span {
+		margin-left: 2rem;
+	}
+	.icon-container {
+		width: 4rem; height: 4rem;
+		display: flex; justify-content: center; align-items: center;
+		color: white;
+	}
 	.icon {
 		width: 2.4rem; height: 2.4rem;
 	}
-
 	.divider {
-		width: 18rem; height: 4px;
+		width: 19.5rem; height: 0.4rem;
 		background-color: rgb(112, 104, 104);
-		margin: 1rem 0 1rem 0;
-		border-radius: 2rem;
+		margin: 1rem 0 1rem 0; border-radius: 2rem;
 	}
 
 </style>
