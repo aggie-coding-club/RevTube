@@ -3,7 +3,10 @@
 	import MdDehaze from 'svelte-icons/md/MdDehaze.svelte';
 	import IoMdHome from 'svelte-icons/io/IoMdHome.svelte';
 	import IoMdFolder from 'svelte-icons/io/IoMdFolder.svelte';
-	import IoMdBook from 'svelte-icons/io/IoMdBook.svelte'
+	import IoMdBook from 'svelte-icons/io/IoMdBook.svelte';
+	import MdHistory from 'svelte-icons/md/MdHistory.svelte';
+	import IoMdThumbsUp from 'svelte-icons/io/IoMdThumbsUp.svelte';
+	import MdAccessTime from 'svelte-icons/md/MdAccessTime.svelte';
 </script>
 
 <div class="sidebar">	
