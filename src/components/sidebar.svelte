@@ -3,22 +3,17 @@
 	import MdDehaze from 'svelte-icons/md/MdDehaze.svelte';
 	import IoMdHome from 'svelte-icons/io/IoMdHome.svelte';
 	import IoMdFolder from 'svelte-icons/io/IoMdFolder.svelte';
-	import IoMdBook from 'svelte-icons/io/IoMdBook.svelte';
-	import MdAccessTime from 'svelte-icons/md/MdAccessTime.svelte';
-	import MdHistory from 'svelte-icons/md/MdHistory.svelte';
-	import IoMdThumbsUp from 'svelte-icons/io/IoMdThumbsUp.svelte';
-
-	function toggle_sidebar() {
-		console.log("hello");
-	}
+	import IoMdBook from 'svelte-icons/io/IoMdBook.svelte'
 </script>
 
 <div class="sidebar">	
+
 	<div class="side-nav">
-		<div class="icon-container side-toggle" on:click={toggle_sidebar}><div class="icon"><MdDehaze/></div></div>
+		<div class="icon-container"><div class="icon"><MdDehaze/></div></div>
 	</div>
 
 	<div class="sidebar-container">
+
 		<a href="/" class="sidebar-btn">
 			<div class="icon-container">
 				<div class="icon"><IoMdHome /></div>
@@ -106,6 +101,14 @@
 		width: 19.5rem; height: 0.2rem;
 		background-color: rgb(112, 104, 104);
 		margin: 1rem 0 1rem 0; border-radius: 2rem;
+	}
+
+	.sidebar-container.hide {
+		display: none;
+	}
+
+	.sidebar.hide {
+		min-height: 4rem;
 	}
 
 </style>
