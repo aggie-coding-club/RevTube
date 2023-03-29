@@ -5,7 +5,7 @@
 </script>
 
 <div class="app">
-	<main>
+	<main class="app-container">
 		<slot />
 		<Navbar/>
 		<Sidebar />
@@ -15,5 +15,6 @@
 <style>
 	.app {
 		margin: 0; border: 0; padding: 0;
+		position: relative;
 	}
 </style>

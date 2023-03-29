@@ -16,7 +16,7 @@
 
 <div class="sidebar {sidebar_toggle ? "" : "hide"}">	
 
-	<div class="side-nav">
+	<div class="side-nav {sidebar_toggle ? "" : "hide"}">
 		<div class="icon-container" on:click={handleClick}>
 			<div class="icon"><MdDehaze/></div>
 		</div>
@@ -78,6 +78,7 @@
 		min-height: 100vh; width: 24rem;
 		background-color: #1a1717; 
 		font-family: "Roboto"; color: white;
+		position: absolute; top: 0; left:0;
 	}
 	.sidebar-container {
 		width: 21.6rem; height: inherit;
@@ -86,6 +87,9 @@
 	.side-nav {
 		width: 20rem; display: flex; justify-content: flex-start; align-items: center;
 		margin: 1rem 0 1.5rem 0;
+	}
+	.side-nav.hide {
+		margin: 0;
 	}
 	.side-nav .icon-container:hover {
 		background-color: #443f3f; border-radius: 50%;
