@@ -1,20 +1,92 @@
 <script>
-export let color = "#4A5568"
-export let stroke = color
-export let filled = false
-export let fill = filled ? color : 'none'
-export let size = '1em' // default 1em match the parent element
-// default heart icon
-export let d = "M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
+    import { onMount } from 'svelte'
+    import querystring from 'query-string';
+    import moment from 'moment'
+    export let videoId;
+    let contentDetails,
+        player,videoPlayer,statistics,snippet,
+        tags = [], 
+        title,
+        publishedAt,
+        viewCount;
+    const endpoint = 'https://www.googleapis.com/youtube/v3/videos',
+        args = {
+            id: videoId,
+            part: 'snippet,player,statistics',
+            maxResults : 1,
+            key : API_KEY
+        }
+    onMount( async () => {
+        let response = await fetch(`${endpoint}?${querystring.stringify(args)}`);
+            response = await response.json()
+            const { items } = response;
+            let { snippet, contentDetails, player, statistics } = items[0];
+            videoPlayer = player.embedHtml;
+            title = snippet.title;
+            tags = snippet.tags;
+            viewCount = statistics.viewCount;
+            publishedAt = moment(snippet.publishedAt).format("DD MMM YYYY");
+    });
+    const numberWithCommas = x => {
+        return x && x.replace(/(\d)(?=(\d{3})+(?!\d))/g,'$1.')
+    }
 </script>
 
-<svg class="icon" viewBox='0 0 24 24' {fill} width={size} height={size} xmlns="http://www.w3.org/2000/svg">
-<path {d} {stroke} stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
+<div id="video">
+    <div id="video-player">
+        {@html videoPlayer }
+    </div>
+    <div class="tags">
+        <ul>
+            {#each tags as tag}
+                <li>#{tag}</li>
+            {/each}
+        </ul>
+    </div>
+    <h1>{ title }</h1>
+    <p><span class="views">{numberWithCommas(viewCount)} visualizzazioni</span> &bull; <span class="publishDate">{publishedAt}</span></p>
+</div>
 
 <style>
-.icon{
-    position: relative; 
-    display: inline-block;
-}
+    #video {
+        border-bottom: 1px solid rgba(0,0,0,.1);
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+    #video-player {
+        position: relative;
+        padding-bottom: 56.25%;
+        height: 0;
+        margin-bottom: 20px;
+    }
+    #video-player > :global(iframe) {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    h1 {
+        font-size: 18px;
+        font-weight: 400;
+        margin: 0 0 10px;
+        padding: 0;
+        line-height: 1;
+    }
+    .tags,.tags ul {
+        margin: 0;
+        padding: 0;
+    }
+    .tags ul li {
+        color: rgb(6, 95, 212);
+        font-size: 12px;
+        font-weight: 400;
+        display: inline-block;
+        margin-right: 4px;
+    }
+    p {
+        color: rgb(96,96,96);
+        font-size: 14px;
+        font-weight: 400;
+    }
 </style>
