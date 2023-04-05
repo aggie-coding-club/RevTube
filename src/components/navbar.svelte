@@ -3,7 +3,10 @@
 </script>
 
 <div class="navbar">
-    <input type="text" placeholder="Search..">
+    <!-- search icon -->
+    <input type="text" placeholder="Search.."/>
+    <!-- upload button -->
+    <!-- login button -->
 </div>
 
 

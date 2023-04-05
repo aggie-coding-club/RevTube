@@ -19,6 +19,7 @@
 	<div class="side-nav {sidebar_toggle ? "" : "hide"}">
 		<div class="icon-container" on:click={handleClick}>
 			<div class="icon"><MdDehaze/></div>
+			<div class="sidebarr-logo"></div>
 		</div>
 	</div>
 
@@ -125,5 +126,9 @@
 	.sidebar.hide {
 		min-height: 4rem;
 		margin: 1rem 0 1.5rem 0;
+	}
+
+	.sidebar-logo {
+		
 	}
 </style>
