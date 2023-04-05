@@ -1,8 +1,23 @@
 <script>
 	import './styles.css';
+	import VideoIcons from '../components/videoicons.svelte';
 </script>
 
 <div class="app">
+	<main class="app-container">
+		<slot />
+		<VideoIcons/>
+	</main>
+</div>
+
+<style>
+	.app {
+		margin: 0; border: 0; padding: 0;
+		position: relative;
+	}
+</style>
+
+<!-- <div class="app">
 	<main>
 		<slot />
 	</main>
@@ -47,4 +62,4 @@
 			padding: 12px 0;
 		}
 	}
-</style>
+</style> -->
