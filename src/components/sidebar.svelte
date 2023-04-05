@@ -124,5 +124,6 @@
 	}
 	.sidebar.hide {
 		min-height: 4rem;
+		margin: 1rem 0 1.5rem 0;
 	}
 </style>
