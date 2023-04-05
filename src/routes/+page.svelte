@@ -1,7 +1,7 @@
 <script>
 	import welcome from '$lib/images/svelte-welcome.webp';
 	import welcome_fallback from '$lib/images/svelte-welcome.png';
-	import VideoIcons from '../components/videoicons.svelte';
+	import Sidebar from '../components/sidebar.svelte';
 </script>
 
 <svelte:head>
@@ -10,7 +10,6 @@
 </svelte:head>
 
 <section>
-
 </section>
 
 <style>
