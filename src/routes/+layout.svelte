@@ -1,12 +1,16 @@
 <script>
 	import './styles.css';
 	import Sidebar from '../components/sidebar.svelte';
+	import Footer from "../components/footer.svelte"
 </script>
 
 <div class="app">
 	<main>
-		<slot />
-		<Sidebar />
+		<div>
+			<slot />
+			<Sidebar />
+			<Footer/>
+		</div>
 	</main>
 </div>
 
