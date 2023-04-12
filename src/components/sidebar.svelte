@@ -76,11 +76,11 @@
 		flex-direction: column;
 		align-items: center;
 		min-height: 100vh;
-		width: 24rem;
+		width: min(24rem, 15%);
 		background-color: #1a1717;
 		font-family: 'Roboto';
 		color: white;
-		position: absolute;
+		position: relative;
 		top: 0;
 		left: 0;
 	}
