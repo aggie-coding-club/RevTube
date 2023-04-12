@@ -130,6 +130,6 @@
 
 	.sidebar-logo {
 		width: 9em; height: 2em;
-		background: url("../static/logo.svg") no-repeat contain center;
+		background: url("../lib/images/logo.svg") no-repeat center;
 	}
 </style>

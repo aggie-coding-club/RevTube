@@ -9,6 +9,7 @@
     <input type="text" placeholder="Search.."/>
     <!-- upload button -->
     <!-- login button -->
+    <button class="navbar-login">Log In</button>
 </div>
 
 
@@ -31,6 +32,22 @@
     .navbar input[type=text] {
         width: calc(20vw);
         font-size: 17px;
+    }
+
+    .navbar-login {
+        height: 35px;
+        width: 70px;
+        border: 2px solid #fff;
+        background-color: #1a1717;
+        color: #fff;
+        border-radius: 5%;
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .navbar-login:hover {
+        opacity: 0.8;
+        background-color: #594e4e;
     }
 </style>
 
