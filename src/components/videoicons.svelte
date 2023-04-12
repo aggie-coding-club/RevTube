@@ -322,16 +322,16 @@
 
   <div class="video-container">
     <div class="thumbnail-container">
-      <img src="">
-      <div class="timestamp">06:49</div>
+      <img src="https://i.ytimg.com/vi/jfKfPfyJRdk/hqdefault_live.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD0rgRIyMq2Sxst3s4KbG-a3dNd3A">
+      <div class="timestamp"><a style="background-color:red;color:white"> LIVE </a></div>
     </div>
     <div class="info-container">
       <div class="profile-pic">
-        <img src="">
+        <img src="https://yt3.googleusercontent.com/gY8H7K-3Eg3olVftRBiqqFe-N5d9Rx90jAsrfQuxDa4m32Wm-kWK6AQJhwchvYLf-H4EjGhCSw=s176-c-k-c0x00ffffff-no-rj">
       </div>
       <div class="video-info">
-        <div class="video-title">Video Title</div>
-        <div class="profile-name">Profile Name</div>
+        <div class="video-title">lofi hip hop radio</div>
+        <div class="profile-name">Lofi Girl</div>
       </div>
 
       <div class="dropdown">
@@ -432,7 +432,7 @@
   }
   
   .video-title {
-    font-size: 18px;
+    font-size: 15px;
     font-weight: bold;
     margin-bottom: 5px;
     cursor: pointer;
