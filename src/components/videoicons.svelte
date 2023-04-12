@@ -68,7 +68,7 @@
                         <span>Option 3</span>
                     </div>
                 </a>
-                <a href="#">Option 2</a>
+                <a href="#">Option 2</a> 
             </div>
           </div>
       </div>
@@ -114,6 +114,47 @@
         </div>
     </div>
   </div>
+
+  <div class="video-container">
+    <div class="thumbnail-container">
+      <img src="">
+      <div class="timestamp">06:49</div>
+    </div>
+    <div class="info-container">
+      <div class="profile-pic">
+        <img src="">
+      </div>
+      <div class="video-info">
+        <div class="video-title">Video Title</div>
+        <div class="profile-name">Profile Name</div>
+      </div>
+
+      <div class="dropdown">
+        <button class="dropdown-toggle">&#8942;</button>
+        <div class="dropdown-menu">
+            <a href="#">
+                <div class="options">
+                    <div class="icon"><MdAccessTime/></div>
+                    <span>Watch Later</span>
+                </div>
+            </a>
+            <a href="#">
+                <div class="options">
+                    <div class="icon"><MdShare/></div>
+                    <span>Share</span>
+                </div>
+            </a>
+            <a href="#">
+                <div class="options">
+                    <div class="icon"><MdAccessTime/></div>
+                    <span>Option 3</span>
+                </div>
+            </a>
+          <a href="#">Option 2</a>
+        </div>
+      </div>
+  </div>
+</div>
 
   <div class="video-container">
     <div class="thumbnail-container">
