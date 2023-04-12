@@ -35,16 +35,16 @@
 
 	<div class="video-container">
         <div class="thumbnail-container">
-          <img src="">
-          <div class="timestamp">06:49</div>
+          <img src="https://i.ytimg.com/vi/cuLprHh_BRg/maxresdefault.jpg">
+          <div class="timestamp">05:52<font color="black"> Link 3 </font></div>
         </div>
         <div class="info-container">
           <div class="profile-pic">
-            <img src="">
+            <img src="https://yt3.googleusercontent.com/urNLBJGryDamao5r0jmlTg84mIBOoaeJd6XR67j4nuRd0iRvv5g-MUgaowsWKCs8V_t4KwST=s176-c-k-c0x00ffffff-no-rj">
           </div>
           <div class="video-info">
-            <div class="video-title">Video Title</div>
-            <div class="profile-name">Profile Name</div>
+            <div class="video-title">Best of Michael Jordans Playoffs</div>
+            <div class="profile-name">NBA</div>
           </div>
 
           <div class="dropdown">
@@ -197,6 +197,169 @@
   </div>
 </div>
 
+<div class="video-container">
+  <div class="thumbnail-container">
+    <img src="https://i.ytimg.com/vi/GDSf2h9_39I/maxresdefault.jpg">
+    <div class="timestamp">11:16</div>
+  </div>
+  <div class="info-container">
+    <div class="profile-pic">
+      <img src="https://yt3.ggpht.com/ytc/AGIKgqOibtncbyNaJVeUjVotNRl0r00hkiUfYEEv5XmNdw=s88-c-k-c0x00ffffff-no-rj">
+    </div>
+    <div class="video-info">
+      <div class="video-title">Why Aliens Might Already Be On Their Way To Us</div>
+      <div class="profile-name">Kurzgesagt</div>
+    </div>
+
+    <div class="dropdown">
+      <button class="dropdown-toggle">&#8942;</button>
+      <div class="dropdown-menu">
+          <a href="#">
+              <div class="options">
+                  <div class="icon"><MdAccessTime/></div>
+                  <span>Watch Later</span>
+              </div>
+          </a>
+          <a href="#">
+              <div class="options">
+                  <div class="icon"><MdShare/></div>
+                  <span>Share</span>
+              </div>
+          </a>
+          <a href="#">
+              <div class="options">
+                  <div class="icon"><MdAccessTime/></div>
+                  <span>Option 3</span>
+              </div>
+          </a>
+        <a href="#">Option 2</a>
+      </div>
+    </div>
+</div>
+</div>
+
+<div class="video-container">
+  <div class="thumbnail-container">
+    <img src="">
+    <div class="timestamp">06:49</div>
+  </div>
+  <div class="info-container">
+    <div class="profile-pic">
+      <img src="">
+    </div>
+    <div class="video-info">
+      <div class="video-title">Video Title</div>
+      <div class="profile-name">Profile Name</div>
+    </div>
+
+    <div class="dropdown">
+      <button class="dropdown-toggle">&#8942;</button>
+      <div class="dropdown-menu">
+          <a href="#">
+              <div class="options">
+                  <div class="icon"><MdAccessTime/></div>
+                  <span>Watch Later</span>
+              </div>
+          </a>
+          <a href="#">
+              <div class="options">
+                  <div class="icon"><MdShare/></div>
+                  <span>Share</span>
+              </div>
+          </a>
+          <a href="#">
+              <div class="options">
+                  <div class="icon"><MdAccessTime/></div>
+                  <span>Option 3</span>
+              </div>
+          </a>
+        <a href="#">Option 2</a>
+      </div>
+    </div>
+</div>
+</div>
+
+<div class="video-container">
+  <div class="thumbnail-container">
+    <img src="">
+    <div class="timestamp">06:49</div>
+  </div>
+  <div class="info-container">
+    <div class="profile-pic">
+      <img src="">
+    </div>
+    <div class="video-info">
+      <div class="video-title">Video Title</div>
+      <div class="profile-name">Profile Name</div>
+    </div>
+
+    <div class="dropdown">
+      <button class="dropdown-toggle">&#8942;</button>
+      <div class="dropdown-menu">
+          <a href="#">
+              <div class="options">
+                  <div class="icon"><MdAccessTime/></div>
+                  <span>Watch Later</span>
+              </div>
+          </a>
+          <a href="#">
+              <div class="options">
+                  <div class="icon"><MdShare/></div>
+                  <span>Share</span>
+              </div>
+          </a>
+          <a href="#">
+              <div class="options">
+                  <div class="icon"><MdAccessTime/></div>
+                  <span>Option 3</span>
+              </div>
+          </a>
+        <a href="#">Option 2</a>
+      </div>
+    </div>
+</div>
+</div>
+
+<div class="video-container">
+  <div class="thumbnail-container">
+    <img src="">
+    <div class="timestamp">06:49</div>
+  </div>
+  <div class="info-container">
+    <div class="profile-pic">
+      <img src="">
+    </div>
+    <div class="video-info">
+      <div class="video-title">Video Title</div>
+      <div class="profile-name">Profile Name</div>
+    </div>
+
+    <div class="dropdown">
+      <button class="dropdown-toggle">&#8942;</button>
+      <div class="dropdown-menu">
+          <a href="#">
+              <div class="options">
+                  <div class="icon"><MdAccessTime/></div>
+                  <span>Watch Later</span>
+              </div>
+          </a>
+          <a href="#">
+              <div class="options">
+                  <div class="icon"><MdShare/></div>
+                  <span>Share</span>
+              </div>
+          </a>
+          <a href="#">
+              <div class="options">
+                  <div class="icon"><MdAccessTime/></div>
+                  <span>Option 3</span>
+              </div>
+          </a>
+        <a href="#">Option 2</a>
+      </div>
+    </div>
+</div>
+</div>
 
 
 </div>
@@ -269,10 +432,11 @@
   }
   
   .video-title {
-    font-size: 18px;
+    font-size: 15px;
     font-weight: bold;
     margin-bottom: 5px;
     cursor: pointer;
+    color: rgb(0, 0, 0)
   }
   
   .profile-name {
