@@ -19,8 +19,8 @@
 	<div class="side-nav {sidebar_toggle ? "" : "hide"}">
 		<div class="icon-container" on:click={handleClick}>
 			<div class="icon"><MdDehaze/></div>
-			<div class="sidebarr-logo"></div>
 		</div>
+		<div class="sidebar-logo"></div>
 	</div>
 
 	<div class="sidebar-container {sidebar_toggle ? "" : "hide"}">
@@ -129,6 +129,7 @@
 	}
 
 	.sidebar-logo {
-		
+		width: 9em; height: 2em;
+		background: url("../static/logo.svg") no-repeat contain center;
 	}
 </style>
