@@ -14,16 +14,15 @@
 	}
 </script>
 
-<div class="sidebar {sidebar_toggle ? "" : "hide"}">	
-
-	<div class="side-nav">
+<div class="sidebar {sidebar_toggle ? '' : 'hide'}">
+	<div class="side-nav {sidebar_toggle ? '' : 'hide'}">
 		<div class="icon-container" on:click={handleClick}>
-			<div class="icon"><MdDehaze/></div>
+			<div class="icon"><MdDehaze /></div>
 		</div>
+		<div class="sidebar-logo" />
 	</div>
 
-	<div class="sidebar-container {sidebar_toggle ? "" : "hide"}">
-
+	<div class="sidebar-container {sidebar_toggle ? '' : 'hide'}">
 		<a href="/" class="sidebar-btn">
 			<div class="icon-container">
 				<div class="icon"><IoMdHome /></div>
@@ -45,56 +44,77 @@
 			<span>Library</span>
 		</a>
 
-		<div class="divider"></div>
+		<div class="divider" />
 
 		<a href="/" class="sidebar-btn">
 			<div class="icon-container">
-				<div class="icon"><MdHistory/></div>
+				<div class="icon"><MdHistory /></div>
 			</div>
 			<span>History</span>
 		</a>
 
 		<a href="/" class="sidebar-btn">
 			<div class="icon-container">
-				<div class="icon"><MdThumbUp/></div>
+				<div class="icon"><MdThumbUp /></div>
 			</div>
 			<span>Liked Videos</span>
 		</a>
 
 		<a href="/" class="sidebar-btn">
 			<div class="icon-container">
-				<div class="icon"><MdAccessTime/></div>
+				<div class="icon"><MdAccessTime /></div>
 			</div>
 			<span>Watch Later</span>
 		</a>
-
 	</div>
 </div>
 
 <style>
 	@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 	.sidebar {
-		display: flex;flex-direction: column; align-items: center;
-		min-height: 100vh; width: 24rem;
-		background-color: #1a1717; 
-		font-family: "Roboto"; color: white;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		min-height: 100vh;
+		width: 24rem;
+		background-color: #1a1717;
+		font-family: 'Roboto';
+		color: white;
+		position: absolute;
+		top: 0;
+		left: 0;
 	}
 	.sidebar-container {
-		width: 21.6rem; height: inherit;
-		display: flex; flex-direction: column; align-items: center;
+		width: 21.6rem;
+		height: inherit;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 	}
 	.side-nav {
-		width: 20rem; display: flex; justify-content: flex-start; align-items: center;
+		width: 20rem;
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
 		margin: 1rem 0 1.5rem 0;
 	}
+	.side-nav.hide {
+		margin: 0;
+	}
 	.side-nav .icon-container:hover {
-		background-color: #443f3f; border-radius: 50%;
+		background-color: #443f3f;
+		border-radius: 50%;
 	}
 	.sidebar-btn {
-		display: flex; color: white;
-		width: 20rem; height: 4rem;
-		align-items: center; text-decoration: none; border-radius: 1rem;
-		font-size: 1.4rem; font-weight: 400;
+		display: flex;
+		color: white;
+		width: 20rem;
+		height: 4rem;
+		align-items: center;
+		text-decoration: none;
+		border-radius: 1rem;
+		font-size: 1.4rem;
+		font-weight: 400;
 	}
 	.sidebar-btn:hover {
 		background-color: #443f3f;
@@ -103,22 +123,35 @@
 		margin-left: 2rem;
 	}
 	.icon-container {
-		width: 4rem; height: 4rem;
-		display: flex; justify-content: center; align-items: center;
+		width: 4rem;
+		height: 4rem;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 		color: white;
 	}
 	.icon {
-		width: 2.4rem; height: 2.4rem;
+		width: 2.4rem;
+		height: 2.4rem;
 	}
 	.divider {
-		width: 19.5rem; height: 0.2rem;
+		width: 19.5rem;
+		height: 0.2rem;
 		background-color: rgb(112, 104, 104);
-		margin: 1rem 0 1rem 0; border-radius: 2rem;
+		margin: 1rem 0 1rem 0;
+		border-radius: 2rem;
 	}
 	.sidebar-container.hide {
 		display: none;
 	}
 	.sidebar.hide {
 		min-height: 4rem;
+		margin: 1rem 0 1.5rem 0;
+	}
+
+	.sidebar-logo {
+		width: 9em;
+		height: 2em;
+		background: url('../static/logo.svg') no-repeat contain center;
 	}
 </style>
