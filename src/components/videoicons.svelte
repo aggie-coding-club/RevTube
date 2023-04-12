@@ -164,7 +164,12 @@
 
 <style>
 	@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
+.videoicons{
+  display: flex-end;flex-direction: row; align-items: center;
+		min-height: 100%; min-width: calc(100vw - 24rem);
+		background-color: #1a1717; 
+		font-family: "Roboto"; color: white;
+}
 .video-container {
     position: relative;
     display: inline-block;
