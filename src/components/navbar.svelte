@@ -4,9 +4,12 @@
 </script>
 
 <div class="navbar">
-    <!-- search icon -->
-    <div class="search-icon"><FaSearch/></div>
-    <input type="text" placeholder="Search.."/>
+
+    <div class="search-container">
+        <!-- search icon -->
+        <div class="search-icon"><FaSearch/></div>
+        <input type="text" placeholder="Search...">
+    </div>
     <!-- upload button -->
     <!-- login button -->
     <button class="navbar-login">Log In</button>
@@ -21,17 +24,31 @@
         position: sticky; top:0; left:0;
         display: flex; justify-content: center; align-items: center;
     }
+    .search-container {
+        display: flex; justify-content: center; align-items: center;
+        border-radius: 0.6rem;
+        border: solid black 0.2rem;
+        background-color: #605858;
+        height: 3.5rem;
+    }
     .search-icon {
-        height: 2.5rem;
-        margin-right: 2rem;
+        height: 2.25rem;
+        margin-right: 1rem; margin-left: 1rem;
         aspect-ratio: 1;
         color: white;
+        cursor: pointer;
 
     }
     /* Style the search box inside the navigation bar */
     .navbar input[type=text] {
-        width: calc(20vw);
-        font-size: 17px;
+        width: 20vw;
+        height: 3rem;
+        font-size: 16px;
+        caret-color: white;
+        color: white;
+        background-color: transparent;
+        outline: none;
+        border: 0;
     }
 
     .navbar-login {
