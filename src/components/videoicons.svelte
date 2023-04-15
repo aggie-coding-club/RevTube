@@ -43,7 +43,7 @@
             <img src="https://yt3.googleusercontent.com/urNLBJGryDamao5r0jmlTg84mIBOoaeJd6XR67j4nuRd0iRvv5g-MUgaowsWKCs8V_t4KwST=s176-c-k-c0x00ffffff-no-rj">
           </div>
           <div class="video-info">
-            <div class="video-title">Best of Michael Jordans Playoffs</div>
+            <div class="video-title">Best of Michael Jordans Playoffs </div>
             <div class="profile-name">NBA</div>
           </div>
 
@@ -62,13 +62,6 @@
                         <span>Share</span>
                     </div>
                 </a>
-                <a href="#">
-                    <div class="options">
-                        <div class="icon"><MdAccessTime/></div>
-                        <span>Option 3</span>
-                    </div>
-                </a>
-                <a href="#">Option 2</a> 
             </div>
           </div>
       </div>
@@ -103,13 +96,6 @@
                       <span>Share</span>
                   </div>
               </a>
-              <a href="#">
-                  <div class="options">
-                      <div class="icon"><MdAccessTime/></div>
-                      <span>Option 3</span>
-                  </div>
-              </a>
-            <a href="#">Option 2</a>
           </div>
         </div>
     </div>
@@ -117,16 +103,16 @@
 
   <div class="video-container">
     <div class="thumbnail-container">
-      <img src="">
-      <div class="timestamp">06:49</div>
+      <img src="https://cdn.britannica.com/93/126493-050-B94B3125/Randy-de-Puniet-French-road-race-Sepang.jpg">
+      <div class="timestamp">10:85</div>
     </div>
     <div class="info-container">
       <div class="profile-pic">
-        <img src="">
+        <img src="https://get.pxhere.com/photo/sport-car-bike-rider-vehicle-motorcycle-ride-motorbike-speed-cycle-race-sports-racing-race-track-motorsport-biker-motorcycling-motorcycle-racing-road-racing-automobile-make-auto-race-superbike-racing-grand-prix-motorcycle-racing-isle-of-man-tt-motorcycle-racer-1084242.jpg">
       </div>
       <div class="video-info">
-        <div class="video-title">Video Title</div>
-        <div class="profile-name">Profile Name</div>
+        <div class="video-title">Racer winning for the first time!</div>
+        <div class="profile-name">GoRacer</div>
       </div>
 
       <div class="dropdown">
@@ -144,14 +130,7 @@
                     <span>Share</span>
                 </div>
             </a>
-            <a href="#">
-                <div class="options">
-                    <div class="icon"><MdAccessTime/></div>
-                    <span>Option 3</span>
-                </div>
-            </a>
-          <a href="#">Option 2</a>
-        </div>
+            </div>
       </div>
   </div>
 </div>
@@ -185,30 +164,23 @@
                     <span>Share</span>
                 </div>
             </a>
-            <a href="#">
-                <div class="options">
-                    <div class="icon"><MdAccessTime/></div>
-                    <span>Option 3</span>
-                </div>
-            </a>
-          <a href="#">Option 2</a>
-        </div>
+           </div>
       </div>
   </div>
 </div>
 
   <div class="video-container">
     <div class="thumbnail-container">
-      <img src="">
-      <div class="timestamp">06:49</div>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/5/50/Gordon_Ramsay_cooking_%28262930612%29.jpg">
+      <div class="timestamp">112:08</div>
     </div>
     <div class="info-container">
       <div class="profile-pic">
-        <img src="">
+        <img src="https://cdn.britannica.com/86/145786-050-5BD27317/chef-cooking-restaurant-kitchen.jpg">
       </div>
       <div class="video-info">
-        <div class="video-title">Video Title</div>
-        <div class="profile-name">Profile Name</div>
+        <div class="video-title">Who's better than Gorden Ramsey</div>
+        <div class="profile-name">Cooking Dad</div>
       </div>
 
       <div class="dropdown">
@@ -226,14 +198,7 @@
                     <span>Share</span>
                 </div>
             </a>
-            <a href="#">
-                <div class="options">
-                    <div class="icon"><MdAccessTime/></div>
-                    <span>Option 3</span>
-                </div>
-            </a>
-          <a href="#">Option 2</a>
-        </div>
+            </div>
       </div>
   </div>
 </div>
@@ -267,30 +232,23 @@
                     <span>Share</span>
                 </div>
             </a>
-            <a href="#">
-                <div class="options">
-                    <div class="icon"><MdAccessTime/></div>
-                    <span>Option 3</span>
-                </div>
-            </a>
-          <a href="#">Option 2</a>
-        </div>
+            </div>
       </div>
   </div>
 </div>
 
   <div class="video-container">
     <div class="thumbnail-container">
-      <img src="">
-      <div class="timestamp">06:49</div>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg">
+      <div class="timestamp">04:15</div>
     </div>
     <div class="info-container">
       <div class="profile-pic">
-        <img src="">
+        <img src="https://cdn.britannica.com/98/235798-050-3C3BA15D/Hamburger-and-french-fries-paper-box.jpg">
       </div>
       <div class="video-info">
-        <div class="video-title">Video Title</div>
-        <div class="profile-name">Profile Name</div>
+        <div class="video-title">Eating food until I spend all of my money</div>
+        <div class="profile-name">Foody</div>
       </div>
 
       <div class="dropdown">
@@ -308,14 +266,7 @@
                     <span>Share</span>
                 </div>
             </a>
-            <a href="#">
-                <div class="options">
-                    <div class="icon"><MdAccessTime/></div>
-                    <span>Option 3</span>
-                </div>
-            </a>
-          <a href="#">Option 2</a>
-        </div>
+            </div>
       </div>
   </div>
 </div>
@@ -396,6 +347,7 @@
     font-weight: bold;
     margin-bottom: 5px;
     cursor: pointer;
+    color: #1a1717;
   }
   
   .profile-name {
