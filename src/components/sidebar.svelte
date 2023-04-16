@@ -9,9 +9,11 @@
 	import MdThumbUp from 'svelte-icons/md/MdThumbUp.svelte';
 
 	let sidebar_toggle = true;
-	function handleClick() {
+	export function handleClick() {
+		show = (!sidebar_toggle) ? "calc(100vw - 24rem)" : "100vw";
 		sidebar_toggle = !sidebar_toggle;
 	}
+	export let show = "100vw";
 </script>
 
 <div class="sidebar {sidebar_toggle ? '' : 'hide'}">
@@ -76,7 +78,7 @@
 		flex-direction: column;
 		align-items: center;
 		min-height: 100vh;
-		width: 24rem;
+		width: min(24rem, 15%);
 		background-color: #1a1717;
 		font-family: 'Roboto';
 		color: white;
@@ -152,6 +154,6 @@
 	.sidebar-logo {
 		width: 9em;
 		height: 2em;
-		background: url('../static/logo.svg') no-repeat contain center;
+		background: url('../lib/images/logo.svg') no-repeat center;
 	}
 </style>
