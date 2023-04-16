@@ -30,6 +30,7 @@
 
 <div>
 	<input type="file" bind:files />
+	<h1>ghi</h1>
 
 	<video>
 		<source src={video_url} type="video/mp4" />

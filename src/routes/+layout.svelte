@@ -6,8 +6,8 @@
 
 <div class="app">
 	<main class="app-container">
-		<slot />
 		<Sidebar />
+		<slot/>
 	</main>
 </div>
 
@@ -16,5 +16,8 @@
 		margin: 0;
 		border: 0;
 		padding: 0;
+	}
+	.app-container{
+		display: flex;
 	}
 </style>

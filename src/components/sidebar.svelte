@@ -80,7 +80,7 @@
 		background-color: #1a1717;
 		font-family: 'Roboto';
 		color: white;
-		position: absolute;
+		/* position: absolute; */
 		top: 0;
 		left: 0;
 	}
