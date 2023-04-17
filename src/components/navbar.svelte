@@ -60,6 +60,7 @@
         border-radius: 5%;
         font-size: 15px;
         font-weight: 600;
+        /* margin: 25rem; */
     }
 
     .navbar-login:hover {

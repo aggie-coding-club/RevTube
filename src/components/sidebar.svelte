@@ -77,7 +77,7 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		min-height: 100vh;
+		min-height: 300vh;
 		width: min(24rem, 15%);
 		background-color: #1a1717;
 		font-family: 'Roboto';

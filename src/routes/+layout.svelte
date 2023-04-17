@@ -33,8 +33,4 @@
 		top: 5.6rem;
 		right: 0;
 	}
-	main {
-		width: 100vw; height: 100vh;
-		display: flex;
-	}
-</style> 
+</style>
