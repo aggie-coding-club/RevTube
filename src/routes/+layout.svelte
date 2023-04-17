@@ -2,7 +2,7 @@
 	import './styles.css';
 	import Sidebar from '../components/sidebar.svelte';
 	import Navbar from '../components/navbar.svelte';
-
+	import Videoicons from "../components/videoicons.svelte";
 	let content_width="calc(100vw - 24rem)";
 </script>
 
@@ -11,6 +11,7 @@
 		<Navbar/>
 		<Sidebar bind:show={content_width}/>
 		<div class="content" style="width: {content_width};">
+			<Videoicons/>
 			<slot />
 		</div>
 	</main>
@@ -32,4 +33,8 @@
 		top: 5.6rem;
 		right: 0;
 	}
-</style>
+	main {
+		width: 100vw; height: 100vh;
+		display: flex;
+	}
+</style> 
